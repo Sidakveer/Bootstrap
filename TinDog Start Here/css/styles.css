@@ -16,7 +16,7 @@ h1 {
     }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h2 {
@@ -60,12 +60,16 @@ h3 {
 .title-img {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
 }
 
 
 /* features section */
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
 }
 
 .feature-box {
@@ -126,3 +130,32 @@ p {
  .pricing-col {
     padding: 3% 2%;
  }
+
+/* media selector */
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+
+
+/* last two sections */
+ 
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.h3-last {
+    font-family: 'Montserrat Black', sans-serif;
+    font-size: 2.5rem;
+    padding: 5% 3% 2%;
+}
