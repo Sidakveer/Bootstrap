@@ -1,6 +1,7 @@
 
 body {
     font-family: "Montserrat", sans-serif;
+    text-align: center;
 }
 
 
@@ -8,11 +9,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat-Bold", sans-serif;
 }
 
-
-h2 {
-    font-size: 3.4rem;
-    line-height: 1.5;
-}
 
 h3 {
     font-size: 1.6rem;
@@ -32,16 +28,11 @@ p {
     font-weight: 900;
 }
 
-#title {
-    background-color: #ff4c68;
-    color: #fff ;
-}
-
-
-
 .container-fluid {
-    padding: 3% 15% 7%;
+    padding: 7% 15%;
 }
+
+
 
 /* navbar */
 .navbar-brand {
@@ -64,6 +55,21 @@ p {
 }
 
 
+
+ /* title section */
+
+ #title {
+    background-color: #ff4c68;
+    color: #fff ;
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+
+
 /* Download Buttons */
 
 .download-button {
@@ -80,13 +86,15 @@ p {
 
 /* features section */
 #features {
-    padding: 7% 15%;
     background-color: #fff;
     position: relative;
 }
 
+.feature-title {
+    font-size: 1.6rem;
+}
+
 .feature-box {
-    text-align: center;
     padding: 5%;
 }
 
@@ -104,9 +112,13 @@ p {
 /* testimonial section */
 
 #testimonials {
-    text-align: center;
     background-color: #ef8172;
     color: #fff;
+}
+
+.testimonial-text {
+    font-size: 3.4rem;
+    line-height: 1.5;
 }
 
 .testimonial-image {
@@ -117,7 +129,6 @@ p {
 
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 5%;
     font-size: 2rem;
 }
@@ -126,20 +137,27 @@ p {
     margin: 20px 20px 50px;
  }
 
- .carousel-item {
-    padding: 7% 15%;
- }
-
  /* pricing */
 
  #pricing {
     padding: 100px;
-    text-align: center;
  }
+
+.section-heading {
+    font-size: 3.4rem;
+    line-height: 1.5;
+}
 
  .pricing-col {
     padding: 3% 2%;
  }
+
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 
 /* media selector */
 
@@ -161,23 +179,13 @@ p {
 #cta {
     background-color: #ff4c68;
     color: #fff;
-    text-align: center;
-    padding-bottom: 7% 15%;
 }
 
-.h3-last {
-    font-family: 'Montserrat-Black';
-    font-size: 3.5rem;
-    line-height: 1.5;
-    padding: 5% 3% 2%;
-}
+
 
 /* footer section */
 
-#footer {
-    text-align: center;
-    padding: 7% 15%;
-}
+
 
 .img-end {
     margin: 20px 10px;
